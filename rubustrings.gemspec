@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = 'dcorderoramirez@gmail.com'
   s.executables = 'rubustrings'
   s.files       = ['lib/rubustrings.rb', 'lib/rubustrings/action.rb']
-  s.homepage    = 'https://github.com/dcordero/Rubustrings'
+  s.homepage    = 'https://github.com/VincentSit/Rubustrings'
   s.license     = 'MIT'  
   s.add_dependency 'colored'
 end
