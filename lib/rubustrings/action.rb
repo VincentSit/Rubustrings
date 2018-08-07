@@ -79,7 +79,7 @@ module Rubustrings
     end
 
     def validate_format(line)
-      localizable_strings_format_regex = /^\"((?:\\.|[^\\"])*?)\"\s=\s\"((?:\\.|[^\\"])*?)\";/
+      localizable_strings_format_regex = /^\"((?:\\.|[^\\"])*?)\"\s+=\s\"((?:\\.|[^\\"])*?)\";/
       localizable_strings_format_regex.match line
     end
 
